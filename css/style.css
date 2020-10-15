@@ -20,7 +20,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: black;
     background-color: white;
-    width: 480px;
+    max-width: 480px;
+    margin:auto;
 }
 
 th {
