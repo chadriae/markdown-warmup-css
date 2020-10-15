@@ -1,26 +1,27 @@
 h1 {
     color: #679b9b;
-    font-family: 'Source Code Pro', monospace;
     width: 100%;
 }
 
 h2 {
-    font-family: 'Fira Sans', sans-serif;
     text-align: center;
     color: #ff9a76
 }
 
 h3  {
-    font-family: 'Fira Sans', sans-serif;
     color: #bb2205
 }
 
 h4 {
-    font-family: 'Fira Sans', sans-serif;
     color: #637373
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Source Code Pro', monospace;
+}
+
 body {
+    font-family: 'Fira Sans', sans-serif;
     margin: 0 500px 0 200px;
     color: black;
     background-color: #FEF7EC;
@@ -36,12 +37,12 @@ table, th, tr, td {
   border: 1px solid black;
   padding: 5px;
   line-height: 3ex;
-  font-family: 'Fira Sans', sans-serif;
+  
 }
 
 ul {
     line-height: 3ex;
-    font-family: 'Fira Sans', sans-serif;
+
 }
 
 table {
@@ -51,13 +52,13 @@ table {
 
 p {
     line-height: 3ex;
-    font-family: 'Fira Sans', sans-serif;
+  
 }
 
-p.story {
+.story {
     text-indent: 35px;
 }
 
-p.center {
+.center {
     text-align: center;
 }
