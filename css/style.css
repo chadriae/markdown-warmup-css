@@ -1,0 +1,48 @@
+h1 {
+    color: #679b9b;
+}
+
+h2 {
+    text-align: center;
+    color: #ff9a76
+}
+
+h3  {
+    color: #bb2205
+}
+
+h4 {
+    color: #637373
+}
+
+body {
+    margin: 0 500px 0 200px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+    width: 480px;
+}
+
+th {
+    text-align: left;
+  }
+
+table, th, tr, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+
+table {
+    width: 480px;
+    border-collapse: collapse;
+}
+
+p {
+    line-height: 3ex;
+}
+
+p.story {
+    text-indent: 35px;
+}
