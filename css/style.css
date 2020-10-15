@@ -19,7 +19,7 @@ body {
     margin: 0 500px 0 200px;
     font-family: 'Montserrat', sans-serif;
     color: black;
-    background-color: white;
+    background-color: #FEF7EC;
     max-width: 480px;
     margin:auto;
 }
@@ -31,9 +31,12 @@ th {
 table, th, tr, td {
   border: 1px solid black;
   padding: 5px;
+  line-height: 3ex;
 }
 
-
+ul {
+    line-height: 3ex;
+}
 
 table {
     width: 480px;
